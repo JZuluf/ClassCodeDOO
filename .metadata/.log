@@ -1,0 +1,599 @@
+!SESSION 2024-09-18 10:24:55.952 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 10:26:08.646
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 10:28:04.499
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-18 10:28:19.010
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2024-09-18 10:34:03.208
+!MESSAGE Problems occurred while performing provisioning operation: operation plan must be resolved
+!STACK 0
+java.lang.IllegalStateException: operation plan must be resolved
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCurrentJREOperation(ProvUI.java:338)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCompabilityWithCurrentJREProvisioningPlan(ProvUI.java:325)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.lambda$5(MarketplaceWizard.java:876)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SESSION 2024-09-18 10:34:48.694 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/josez/Documents/eclipse/fileseclipse/ -data file:/C:/Users/josez/Documents/eclipse/fileseclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 10:34:55.091
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 10:34:58.515
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-18 10:34:59.090
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-18 10:34:59.090
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-18 10:34:59.500
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-18 10:34:59.500
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-18 10:35:06.647
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-24 18:06:26.442 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 18:06:29.758
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 18:06:33.699
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 18:06:34.028
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 18:06:34.028
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 18:06:34.302
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 18:06:34.302
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-24 18:06:37.526
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-09-24 18:07:06.413
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.sonarlint.eclipse.ui.internal.SonarLintUiPlugin$StartupJob RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	 at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	 at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	 at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	 at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	 at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+	 at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:931)
+	 at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	 at org.sonarlint.eclipse.core.internal.http.HttpClient.getWebsiteContent(HttpClient.java:107)
+	 at org.sonarlint.eclipse.core.internal.http.EclipseUpdateSite.getEclipseUpdateSiteContent(EclipseUpdateSite.java:78)
+	 at org.sonarlint.eclipse.core.internal.http.EclipseUpdateSite.getNewestVersion(EclipseUpdateSite.java:51)
+	 at org.sonarlint.eclipse.ui.internal.SonarLintUiPlugin$StartupJob.run(SonarLintUiPlugin.java:283)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-24 18:07:06.858 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 18:07:08.895
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 18:07:41.160
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 18:07:41.542
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 18:07:41.542
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 18:07:41.793
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 18:07:41.793
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-24 18:07:44.163
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-24 19:01:32.174 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/josez/Documents/eclipse/fileseclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:01:35.599
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:01:36.683
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:01:37.051
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:01:37.051
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:01:37.321
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:01:37.321
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-24 19:01:39.536
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-09-24 19:07:25.764
+!MESSAGE Connection to https://download.eclipse.org/eclipse/updates/4.33-P-builds/p2.index failed on Connect to https://download.eclipse.org:443 [download.eclipse.org/198.41.30.199] failed: Connection timed out: getsockopt. Retry attempt 0 started
+!STACK 0
+org.apache.hc.client5.http.HttpHostConnectException: Connect to https://download.eclipse.org:443 [download.eclipse.org/198.41.30.199] failed: Connection timed out: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.lambda$connectSocket$0(SSLConnectionSocketFactory.java:281)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:280)
+	at org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:240)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1009)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:997)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-09-24 19:08:04.233
+!MESSAGE An internal error occurred during: "Install download0".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.osgi.signedcontent.SignedContentFactory.getSignedContent(java.io.File)" because "verifierFactory" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verifyContent(SignatureVerifier.java:84)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verify(SignatureVerifier.java:66)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.close(SignatureVerifier.java:115)
+	at org.eclipse.equinox.internal.provisional.p2.artifact.repository.processing.ProcessingStep.close(ProcessingStep.java:97)
+	at org.eclipse.equinox.internal.p2.artifact.processors.checksum.MessageDigestProcessingStep.close(MessageDigestProcessingStep.java:58)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.reportStatus(SimpleArtifactRepository.java:1317)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:647)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:846)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:357)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:327)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:248)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:164)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:828)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2024-09-24 19:08:04.238
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2024-09-24 19:08:04.238
+!MESSAGE session context was:(profile=epp.package.jee, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2024-09-24 19:08:04.238
+!MESSAGE Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@3f8d7f04
+!STACK 0
+java.lang.IllegalStateException: Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@3f8d7f04
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.checkRunning(ProvisioningAgent.java:87)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:51)
+	at org.eclipse.equinox.p2.core.IProvisioningAgent.getService(IProvisioningAgent.java:87)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.publishDownloadEvent(DownloadManager.java:147)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.fetch(DownloadManager.java:138)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:108)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:124)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:65)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:95)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:49)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-24 19:08:04.721 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/josez/Documents/eclipse/fileseclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:08:07.251
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:08:09.589
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:08:09.956
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:08:09.956
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:08:10.190
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:08:10.190
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-24 19:08:12.298
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2024-09-24 19:21:19.255
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\josez\AppData\Local\Temp\epp.package.jee_362e8e99-460d-4845-8e22-cc01fca1acc1
+!SESSION 2024-09-24 19:21:26.785 -----------------------------------------------
+eclipse.buildId=4.33.0.I20240903-0240
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/josez/Documents/eclipse/fileseclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:21:34.263
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:21:38.694
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:21:39.248
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:21:39.248
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:21:39.310
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:21:39.310
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:21:39.310
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:22:12.598
+!MESSAGE Invalid activity: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:22:12.598
+!MESSAGE Invalid activity: missing a unique identifier (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:22:12.598
+!MESSAGE Invalid category description: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:22:12.598
+!MESSAGE Invalid category description: has no ID (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:22:12.598
+!MESSAGE Invalid activity pattern binding: missing the pattern to be bound (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:22:12.598
+!MESSAGE Invalid activity requirement binding: missing ID of the required activity (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:22:12.598
+!MESSAGE Invalid category activity binding: missing the ID of the activity to bind (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:22:12.644
+!MESSAGE Expression activity cannot have requirements (id: org.eclipse.ui.tests.filter4.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:22:12.644
+!MESSAGE Expression activity cannot be required (id: org.eclipse.ui.tests.filter7.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:22:12.723
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:22:12.723
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 2 2024-09-24 19:22:13.029
+!MESSAGE Could not parse value for theme color badColor3
+!STACK 0
+org.eclipse.jface.resource.DataFormatException: For input string: "1x"
+	at org.eclipse.jface.resource.StringConverter.asRGB(StringConverter.java:568)
+	at org.eclipse.ui.themes.ColorUtil.getColorValue(ColorUtil.java:159)
+	at org.eclipse.ui.internal.themes.ColorDefinition.getValue(ColorDefinition.java:111)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.installColor(ThemeElementHelper.java:272)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.populateRegistry(ThemeElementHelper.java:181)
+	at org.eclipse.ui.internal.Workbench$22.runWithException(Workbench.java:1811)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeApplicationColors(Workbench.java:1806)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1716)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2825)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:632)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-09-24 19:22:18.153
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.ui.tests.navigator.testTHISISNOTFOUND
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-09-24 19:22:18.154
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.ui.tests.navigator.testTHISISNOTFOUND
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-24 19:22:18.426
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:22:18.568
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.api.workbenchpart.ViewWithMissingClass" id and the "ERROR: View pointing to invalid class" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:22:18.582
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.concurrentTableTest" id and the "Concurrent Table Test View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:22:18.587
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.decorator.TableTreeTest" id and the "Table Tree Test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:22:18.588
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.view1" id and the "Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:22:18.590
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyView" id and the "Lazy Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:22:18.591
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyViewDeferred" id and the "Lazy Virtual Table with Deferred Updates and Ranges" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-09-24 19:22:19.371
+!MESSAGE There were unresolved dependencies for action provider extensions to a Common Navigator.
+Verify that the "dependsOn" attribute for each <actionProvider /> element is valid.
+Unresolved dependency specified for actionProvider: org.eclipse.ui.tests.navigator.extension.[If this menu option shows, it is an INTENTIONAL ERROR from org.eclipse.ui.tests.navigator! A warning SHOULD appear in the log!]
+!SESSION 2024-09-24 19:24:41.226 -----------------------------------------------
+eclipse.buildId=4.33.0.I20240903-0240
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/josez/Documents/eclipse/fileseclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:24:48.131
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-24 19:24:51.501
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\fileseclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:24:52.110
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:24:52.110
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:24:52.160
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:24:52.160
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:24:52.160
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:25:26.148
+!MESSAGE Invalid activity: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:25:26.148
+!MESSAGE Invalid activity: missing a unique identifier (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:25:26.163
+!MESSAGE Invalid category description: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:25:26.163
+!MESSAGE Invalid category description: has no ID (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:25:26.163
+!MESSAGE Invalid activity pattern binding: missing the pattern to be bound (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:25:26.165
+!MESSAGE Invalid activity requirement binding: missing ID of the required activity (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-09-24 19:25:26.165
+!MESSAGE Invalid category activity binding: missing the ID of the activity to bind (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:25:26.210
+!MESSAGE Expression activity cannot have requirements (id: org.eclipse.ui.tests.filter4.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:25:26.211
+!MESSAGE Expression activity cannot be required (id: org.eclipse.ui.tests.filter7.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-09-24 19:25:26.258
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-24 19:25:26.258
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 2 2024-09-24 19:25:26.622
+!MESSAGE Could not parse value for theme color badColor3
+!STACK 0
+org.eclipse.jface.resource.DataFormatException: For input string: "1x"
+	at org.eclipse.jface.resource.StringConverter.asRGB(StringConverter.java:568)
+	at org.eclipse.ui.themes.ColorUtil.getColorValue(ColorUtil.java:159)
+	at org.eclipse.ui.internal.themes.ColorDefinition.getValue(ColorDefinition.java:111)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.installColor(ThemeElementHelper.java:272)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.populateRegistry(ThemeElementHelper.java:181)
+	at org.eclipse.ui.internal.Workbench$22.runWithException(Workbench.java:1811)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeApplicationColors(Workbench.java:1806)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1716)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2825)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:632)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-09-24 19:25:30.441
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.ui.tests.navigator.testTHISISNOTFOUND
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-09-24 19:25:30.441
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.ui.tests.navigator.testTHISISNOTFOUND
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-24 19:25:30.738
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:25:30.910
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.api.workbenchpart.ViewWithMissingClass" id and the "ERROR: View pointing to invalid class" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:25:30.913
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.concurrentTableTest" id and the "Concurrent Table Test View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:25:30.916
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.decorator.TableTreeTest" id and the "Table Tree Test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:25:30.918
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.view1" id and the "Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:25:30.920
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyView" id and the "Lazy Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-24 19:25:30.922
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyViewDeferred" id and the "Lazy Virtual Table with Deferred Updates and Ranges" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-09-24 19:25:31.781
+!MESSAGE There were unresolved dependencies for action provider extensions to a Common Navigator.
+Verify that the "dependsOn" attribute for each <actionProvider /> element is valid.
+Unresolved dependency specified for actionProvider: org.eclipse.ui.tests.navigator.extension.[If this menu option shows, it is an INTENTIONAL ERROR from org.eclipse.ui.tests.navigator! A warning SHOULD appear in the log!]
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-24 19:27:23.773
+!MESSAGE Classpath changed for project: CrossCutting
+
+!ENTRY org.eclipse.ui 2 2 2024-09-24 19:30:09.882
+!MESSAGE Invalid property category path: Test Category (bundle: org.eclipse.ui.tests, propertyPage: org.eclipse.ui.tests.and)
+
+!ENTRY org.eclipse.ui 2 2 2024-09-24 19:30:09.883
+!MESSAGE Invalid property category path: Test Category (bundle: org.eclipse.ui.tests, propertyPage: org.eclipse.ui.tests.or)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-24 19:33:23.401
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/josez/Documents/eclipse/fileseclipse/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1727224403401
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-24 19:33:23.402
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-24 19:33:23.414
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9896
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-24 19:58:43.570
+!MESSAGE Classpath changed for project: CrossCutting
+
+!ENTRY org.eclipse.debug.core 4 2 2024-09-24 20:20:11.302
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.eclemma.core.launching.JavaApplicationLauncher cannot be cast to class org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate (org.eclipse.eclemma.core.launching.JavaApplicationLauncher is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39feeeb3; org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @540e12f5)
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.launchAdded(TestJarLaunchListener.java:117)
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.launchesAdded(TestJarLaunchListener.java:185)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:267)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:256)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:908)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:667)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:763)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2024-09-24 20:20:11.303
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.eclemma.core.launching.JavaApplicationLauncher cannot be cast to class org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate (org.eclipse.eclemma.core.launching.JavaApplicationLauncher is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39feeeb3; org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @540e12f5)
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.launchAdded(TestJarLaunchListener.java:117)
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.launchesAdded(TestJarLaunchListener.java:185)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:267)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:256)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:908)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:667)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:763)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
