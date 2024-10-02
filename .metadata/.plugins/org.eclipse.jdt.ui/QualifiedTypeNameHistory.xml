@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.dto.CountryDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CountryEntity"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.dto.CityDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.ObjectHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.UUIDHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.TextHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.domain.CountryDomain"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,33 @@
+package co.edu.uco.ucobet.entity;
+
+import java.util.UUID;
+import co.edu.uco.crosscutting.helpers.TextHelper;
+import co.edu.uco.crosscutting.helpers.UUIDHelper;
+
+public class CountryDTO extends DomainDTO{
+	
+	private String name;
+	
+	public CountryDTO() {
+		super(UUIDHelper.getDefault());
+		setName(TextHelper.EMPTY);
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(final String name) {
+		this.name = TextHelper.applyTrim(name);
+	}
+	
+	public void setId(final UUID id) {
+		return super.setId(id);
+	}
+	
+	public String getId() {
+		return super.getId();
+	}	
+	
+	
+}

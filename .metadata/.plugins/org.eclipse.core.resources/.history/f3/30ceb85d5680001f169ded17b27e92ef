@@ -1,0 +1,22 @@
+package co.edu.uco.ucobet.entity;
+
+import co.edu.uco.crosscutting.helpers.TextHelper;
+import co.edu.uco.crosscutting.helpers.UUIDHelper;
+
+class DomainDTO {
+	
+	private String id;
+	
+	protected DomainDTO(final String id) {
+		
+	}
+
+	protected String getId() {
+		return id;
+	}
+
+	protected void setId(final String id) {
+		this.id = TextHelper.getDefault(id, UUIDHelper.getDefaultAsString());
+	}
+	
+}

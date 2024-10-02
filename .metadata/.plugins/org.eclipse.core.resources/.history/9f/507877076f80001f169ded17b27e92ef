@@ -1,0 +1,38 @@
+package co.edu.uco.ucobet.dto;
+
+import co.edu.uco.crosscutting.helpers.TextHelper;
+import co.edu.uco.crosscutting.helpers.UUIDHelper;
+
+public class StateDTO extends DomainDTO {
+	
+	private String name;
+	private CountryDTO country;
+	
+	public StateDTO() {
+		super(UUIDHelper.getDefaultAsString());
+		setName(TextHelper.EMPTY);
+	}
+	public static final StateDTO create() {
+		return new CountryDTO();
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public CountryDTO setName(String name) {
+		this.name = TextHelper.applyTrim(name);
+		return this;
+	}
+
+	public CountryDTO setId(final String id) {
+		super.setIdentifier(id);
+		return this;
+	}
+	@Override
+	public String getId() {
+		return super.getId();
+	}
+	
+
+}

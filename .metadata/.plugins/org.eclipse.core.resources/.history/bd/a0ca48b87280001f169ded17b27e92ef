@@ -1,0 +1,49 @@
+package co.edu.uco.ucobet.dto;
+
+import co.edu.uco.crosscutting.helpers.ObjectHelper;
+import co.edu.uco.crosscutting.helpers.TextHelper;
+import co.edu.uco.crosscutting.helpers.UUIDHelper;
+
+public class CityDTO extends DomainDTO {
+	
+	private String name;
+	private CountryDTO country;
+	
+	public CityDTO() {
+		super(UUIDHelper.getDefaultAsString());
+		setName(TextHelper.EMPTY);
+		setCountry(CountryDTO.create());
+	}
+	
+	public static final CityDTO create() {
+		return new CityDTO();
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public CityDTO setName(String name) {
+		this.name = TextHelper.applyTrim(name);
+		return this;
+	}
+
+	public CityDTO setId(final String id) {
+		super.setIdentifier(id);
+		return this;
+	}
+	
+	@Override
+	public String getId() {
+		return super.getId();
+	}
+	public CountryDTO getCountry() {
+		return country;
+	}
+	protected CityDTO setCountry(final CountryDTO country) {
+		this.country = ObjectHelper.getDefault(country, CountryDTO.create());
+		return this;
+	}
+	
+
+}
