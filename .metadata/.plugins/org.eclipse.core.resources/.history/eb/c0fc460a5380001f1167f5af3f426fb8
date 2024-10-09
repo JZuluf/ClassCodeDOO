@@ -1,9 +1,0 @@
-package co.edu.uco.ucobet.dto;
-
-import java.util.UUID;
-
-public class DomainDTO {
-	
-	private String id;
-
-}
