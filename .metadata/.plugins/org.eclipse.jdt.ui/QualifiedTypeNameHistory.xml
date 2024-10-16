@@ -6,10 +6,10 @@
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.dto.CityDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.ObjectHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.UUIDHelper"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.TextHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.domain.CountryDomain"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.RetrieveDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.CountryDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CityEntity"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.TextHelper"/>
 </qualifiedTypeNameHistroy>
