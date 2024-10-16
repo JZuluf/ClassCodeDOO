@@ -1383,3 +1383,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact co.edu.uco.cr
 2024-10-15 19:16:58,391 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\src\test\resources
 2024-10-15 21:10:13,862 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-10-15 21:10:23,524 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-15 21:19:41,332 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-15 21:19:48,050 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
