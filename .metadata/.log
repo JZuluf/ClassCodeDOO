@@ -5655,3 +5655,951 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-15 21:19:41.732
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyViewDeferred" id and the "Lazy Virtual Table with Deferred Updates and Ranges" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+!SESSION 2024-10-15 21:49:45.647 -----------------------------------------------
+eclipse.buildId=4.33.0.I20240903-0240
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 21:49:49.387
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 21:50:05.612
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\ClassCodeDOO\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-10-15 21:50:05.969
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-15 21:50:05.969
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-10-15 21:50:06.004
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-15 21:50:06.004
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-15 21:50:06.004
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:24.367
+!MESSAGE Invalid activity: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:24.368
+!MESSAGE Invalid activity: missing a unique identifier (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:24.368
+!MESSAGE Invalid category description: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:24.368
+!MESSAGE Invalid category description: has no ID (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:24.369
+!MESSAGE Invalid activity pattern binding: missing the pattern to be bound (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:24.369
+!MESSAGE Invalid activity requirement binding: missing ID of the required activity (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:24.369
+!MESSAGE Invalid category activity binding: missing the ID of the activity to bind (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 2 0 2024-10-15 21:50:24.372
+!MESSAGE Expression activity cannot have requirements (id: org.eclipse.ui.tests.filter4.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-15 21:50:24.373
+!MESSAGE Expression activity cannot be required (id: org.eclipse.ui.tests.filter7.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-15 21:50:24.401
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-15 21:50:24.401
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 2 2024-10-15 21:50:24.623
+!MESSAGE Could not parse value for theme color badColor3
+!STACK 0
+org.eclipse.jface.resource.DataFormatException: For input string: "1x"
+	at org.eclipse.jface.resource.StringConverter.asRGB(StringConverter.java:568)
+	at org.eclipse.ui.themes.ColorUtil.getColorValue(ColorUtil.java:159)
+	at org.eclipse.ui.internal.themes.ColorDefinition.getValue(ColorDefinition.java:111)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.installColor(ThemeElementHelper.java:272)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.populateRegistry(ThemeElementHelper.java:181)
+	at org.eclipse.ui.internal.Workbench$22.runWithException(Workbench.java:1811)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeApplicationColors(Workbench.java:1806)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1716)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2825)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:632)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 4 2024-10-15 21:50:27.302
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Cannot determine URI for '/ucobet/src/main/java/co/edu/uco/ucobet/crosscutting/exceptions/ControllerUcoBetException.java'.
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3202)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3213)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1389)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:48)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1079)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/ucobet/src/main/java/co/edu/uco/ucobet/crosscutting/exceptions/ControllerUcoBetException.java'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:116)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:565)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:992)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1253)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4187)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1521)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2567)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2540)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1415)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3171)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2285)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3188)
+	... 110 more
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2024-10-15 21:50:27.303
+!MESSAGE Cannot determine URI for '/ucobet/src/main/java/co/edu/uco/ucobet/crosscutting/exceptions/ControllerUcoBetException.java'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/ucobet/src/main/java/co/edu/uco/ucobet/crosscutting/exceptions/ControllerUcoBetException.java'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:116)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:565)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:992)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1253)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4187)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1521)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2567)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2540)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1415)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3171)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2285)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3188)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3213)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1389)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:48)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1079)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2024-10-15 21:50:27.303
+!MESSAGE Cannot determine URI for '/ucobet/src/main/java/co/edu/uco/ucobet/crosscutting/exceptions/ControllerUcoBetException.java'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-15 21:50:28.506
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-15 21:50:28.648
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.api.workbenchpart.ViewWithMissingClass" id and the "ERROR: View pointing to invalid class" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-15 21:50:28.649
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.concurrentTableTest" id and the "Concurrent Table Test View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-15 21:50:28.650
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.decorator.TableTreeTest" id and the "Table Tree Test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-15 21:50:28.651
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.view1" id and the "Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-15 21:50:28.653
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyView" id and the "Lazy Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-15 21:50:28.654
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyViewDeferred" id and the "Lazy Virtual Table with Deferred Updates and Ranges" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:08.786
+!MESSAGE Classpath changed for project: CrossCutting
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-15 21:51:11.036
+!MESSAGE The POM for co.edu.uco.crosscutting:CrossCutting:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:11.680
+!MESSAGE Classpath changed for project: CrossCutting
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:11.748
+!MESSAGE Classpath changed for project: ucobet
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:12.697
+!MESSAGE Classpath changed for project: ucobet
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:12.698
+!MESSAGE Boot project ADDED: ucobet
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:12.699
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:12.700
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-15 21:51:12.710
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/josez/Documents/eclipse/ClassCodeDOO/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1729047072709
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:12.711
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-15 21:51:12.720
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11644
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:12.906
+!MESSAGE Classpath changed for project: ucobet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-15 21:51:14.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-15 21:51:14.802
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-15 21:51:14.906
+!MESSAGE Classpath changed for project: ucobet
+!SESSION 2024-10-16 19:46:40.594 -----------------------------------------------
+eclipse.buildId=4.33.0.I20240903-0240
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-16 19:46:45.697
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-16 19:47:10.149
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\ClassCodeDOO\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 19:47:10.806
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 19:47:10.806
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 19:47:10.859
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 19:47:10.859
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 19:47:10.859
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 19:47:40.699
+!MESSAGE Invalid activity: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 19:47:40.700
+!MESSAGE Invalid activity: missing a unique identifier (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 19:47:40.700
+!MESSAGE Invalid category description: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 19:47:40.701
+!MESSAGE Invalid category description: has no ID (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 19:47:40.702
+!MESSAGE Invalid activity pattern binding: missing the pattern to be bound (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 19:47:40.702
+!MESSAGE Invalid activity requirement binding: missing ID of the required activity (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 19:47:40.703
+!MESSAGE Invalid category activity binding: missing the ID of the activity to bind (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 19:47:40.708
+!MESSAGE Expression activity cannot have requirements (id: org.eclipse.ui.tests.filter4.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 19:47:40.710
+!MESSAGE Expression activity cannot be required (id: org.eclipse.ui.tests.filter7.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 19:47:40.759
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 19:47:40.759
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 2 2024-10-16 19:47:41.148
+!MESSAGE Could not parse value for theme color badColor3
+!STACK 0
+org.eclipse.jface.resource.DataFormatException: For input string: "1x"
+	at org.eclipse.jface.resource.StringConverter.asRGB(StringConverter.java:568)
+	at org.eclipse.ui.themes.ColorUtil.getColorValue(ColorUtil.java:159)
+	at org.eclipse.ui.internal.themes.ColorDefinition.getValue(ColorDefinition.java:111)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.installColor(ThemeElementHelper.java:272)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.populateRegistry(ThemeElementHelper.java:181)
+	at org.eclipse.ui.internal.Workbench$22.runWithException(Workbench.java:1811)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeApplicationColors(Workbench.java:1806)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1716)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2825)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:632)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-16 19:47:47.613
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/josez/Documents/eclipse/ClassCodeDOO/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1729126067611
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 19:47:47.615
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-16 19:47:47.654
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2780
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 19:47:52.623
+!MESSAGE Boot project ADDED: ucobet
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 19:47:52.624
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 19:47:52.626
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-16 19:47:52.803
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 19:47:53.081
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.api.workbenchpart.ViewWithMissingClass" id and the "ERROR: View pointing to invalid class" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 19:47:53.083
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.concurrentTableTest" id and the "Concurrent Table Test View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 19:47:53.085
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.decorator.TableTreeTest" id and the "Table Tree Test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 19:47:53.087
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.view1" id and the "Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 19:47:53.088
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyView" id and the "Lazy Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 19:47:53.090
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyViewDeferred" id and the "Lazy Virtual Table with Deferred Updates and Ranges" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+!SESSION 2024-10-16 20:15:28.280 -----------------------------------------------
+eclipse.buildId=4.33.0.I20240903-0240
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-16 20:15:34.535
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-16 20:17:07.310
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\ClassCodeDOO\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:17:07.871
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:17:07.871
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:17:07.919
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:17:07.919
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:17:07.919
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:17:36.894
+!MESSAGE Invalid activity: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:17:36.896
+!MESSAGE Invalid activity: missing a unique identifier (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:17:36.896
+!MESSAGE Invalid category description: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:17:36.896
+!MESSAGE Invalid category description: has no ID (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:17:36.896
+!MESSAGE Invalid activity pattern binding: missing the pattern to be bound (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:17:36.897
+!MESSAGE Invalid activity requirement binding: missing ID of the required activity (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:17:36.898
+!MESSAGE Invalid category activity binding: missing the ID of the activity to bind (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:17:36.904
+!MESSAGE Expression activity cannot have requirements (id: org.eclipse.ui.tests.filter4.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:17:36.905
+!MESSAGE Expression activity cannot be required (id: org.eclipse.ui.tests.filter7.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:17:36.944
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:17:36.944
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 2 2024-10-16 20:17:37.247
+!MESSAGE Could not parse value for theme color badColor3
+!STACK 0
+org.eclipse.jface.resource.DataFormatException: For input string: "1x"
+	at org.eclipse.jface.resource.StringConverter.asRGB(StringConverter.java:568)
+	at org.eclipse.ui.themes.ColorUtil.getColorValue(ColorUtil.java:159)
+	at org.eclipse.ui.internal.themes.ColorDefinition.getValue(ColorDefinition.java:111)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.installColor(ThemeElementHelper.java:272)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.populateRegistry(ThemeElementHelper.java:181)
+	at org.eclipse.ui.internal.Workbench$22.runWithException(Workbench.java:1811)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeApplicationColors(Workbench.java:1806)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1716)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2825)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:632)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-16 20:17:41.539
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/josez/Documents/eclipse/ClassCodeDOO/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1729127861538
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:17:41.540
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-16 20:17:41.558
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11136
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:17:44.150
+!MESSAGE Boot project ADDED: ucobet
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:17:44.151
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:17:44.154
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-16 20:17:44.324
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:17:44.513
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.api.workbenchpart.ViewWithMissingClass" id and the "ERROR: View pointing to invalid class" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:17:44.515
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.concurrentTableTest" id and the "Concurrent Table Test View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:17:44.523
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.decorator.TableTreeTest" id and the "Table Tree Test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:17:44.525
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.view1" id and the "Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:17:44.526
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyView" id and the "Lazy Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:17:44.541
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyViewDeferred" id and the "Lazy Virtual Table with Deferred Updates and Ranges" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.ui 2 2 2024-10-16 20:18:47.786
+!MESSAGE Invalid property category path: Test Category (bundle: org.eclipse.ui.tests, propertyPage: org.eclipse.ui.tests.and)
+
+!ENTRY org.eclipse.ui 2 2 2024-10-16 20:18:47.786
+!MESSAGE Invalid property category path: Test Category (bundle: org.eclipse.ui.tests, propertyPage: org.eclipse.ui.tests.or)
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:19:39.965
+!MESSAGE Blorf is not a valid charset.
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:19:39.966
+!MESSAGE  is not a valid charset.
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:23:54.566
+!MESSAGE Could not create action delegate for id: org.eclipse.ui.tests.parm.noClassAttrParm
+!SUBENTRY 1 org.eclipse.ui.tests 4 0 2024-10-16 20:23:54.566
+!MESSAGE The 'org.eclipse.ui.tests.parm.noClassAttrParm' action won't work without some initialization parameters
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:23:54.567
+!MESSAGE Could not create action delegate for id: org.eclipse.ui.tests.parm.noClassElParm
+!SUBENTRY 1 org.eclipse.ui.tests 4 0 2024-10-16 20:23:54.567
+!MESSAGE The 'org.eclipse.ui.tests.parm.noClassElParm' action won't work without some initialization parameters
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:23:54.568
+!MESSAGE Could not create action delegate for id: org.eclipse.ui.tests.parm.incorrectClassElParm
+!SUBENTRY 1 org.eclipse.ui.tests 4 0 2024-10-16 20:23:54.568
+!MESSAGE The 'org.eclipse.ui.tests.parm.incorrectClassElParm' action won't work without a commandId
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:23:54.774
+!MESSAGE Could not create action delegate for id: org.eclipse.ui.tests.parm.noClassAttrParm
+!SUBENTRY 1 org.eclipse.ui.tests 4 0 2024-10-16 20:23:54.774
+!MESSAGE The 'org.eclipse.ui.tests.parm.noClassAttrParm' action won't work without some initialization parameters
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:23:54.775
+!MESSAGE Could not create action delegate for id: org.eclipse.ui.tests.parm.noClassElParm
+!SUBENTRY 1 org.eclipse.ui.tests 4 0 2024-10-16 20:23:54.775
+!MESSAGE The 'org.eclipse.ui.tests.parm.noClassElParm' action won't work without some initialization parameters
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:23:54.776
+!MESSAGE Could not create action delegate for id: org.eclipse.ui.tests.parm.incorrectClassElParm
+!SUBENTRY 1 org.eclipse.ui.tests 4 0 2024-10-16 20:23:54.776
+!MESSAGE The 'org.eclipse.ui.tests.parm.incorrectClassElParm' action won't work without a commandId
+!SESSION 2024-10-16 20:28:40.288 -----------------------------------------------
+eclipse.buildId=4.33.0.I20240903-0240
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-16 20:28:44.523
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-16 20:28:49.625
+!MESSAGE Logback config file: C:\Users\josez\Documents\eclipse\ClassCodeDOO\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:28:50.192
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:28:50.192
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:28:50.238
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:28:50.238
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:28:50.238
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.ui.tests', id='org.eclipse.ui.tests.TestCommandId'
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:29:17.093
+!MESSAGE Invalid activity: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:29:17.094
+!MESSAGE Invalid activity: missing a unique identifier (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:29:17.094
+!MESSAGE Invalid category description: missing a translatable name (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:29:17.095
+!MESSAGE Invalid category description: has no ID (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:29:17.096
+!MESSAGE Invalid activity pattern binding: missing the pattern to be bound (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:29:17.096
+!MESSAGE Invalid activity requirement binding: missing ID of the required activity (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 4 4 2024-10-16 20:29:17.097
+!MESSAGE Invalid category activity binding: missing the ID of the activity to bind (contributed by 'org.eclipse.ui.tests')
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:29:17.101
+!MESSAGE Expression activity cannot have requirements (id: org.eclipse.ui.tests.filter4.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:29:17.102
+!MESSAGE Expression activity cannot be required (id: org.eclipse.ui.tests.filter7.enabled)
+
+!ENTRY org.eclipse.ui 2 0 2024-10-16 20:29:17.150
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-10-16 20:29:17.150
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 2 2024-10-16 20:29:17.506
+!MESSAGE Could not parse value for theme color badColor3
+!STACK 0
+org.eclipse.jface.resource.DataFormatException: For input string: "1x"
+	at org.eclipse.jface.resource.StringConverter.asRGB(StringConverter.java:568)
+	at org.eclipse.ui.themes.ColorUtil.getColorValue(ColorUtil.java:159)
+	at org.eclipse.ui.internal.themes.ColorDefinition.getValue(ColorDefinition.java:111)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.installColor(ThemeElementHelper.java:272)
+	at org.eclipse.ui.internal.themes.ThemeElementHelper.populateRegistry(ThemeElementHelper.java:186)
+	at org.eclipse.ui.internal.themes.Theme.<init>(Theme.java:72)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.getTheme(WorkbenchThemeManager.java:298)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.getTheme(WorkbenchThemeManager.java:315)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.doSetCurrentTheme(WorkbenchThemeManager.java:233)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.setCurrentTheme(WorkbenchThemeManager.java:337)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.getCurrentTheme(WorkbenchThemeManager.java:263)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.init(WorkbenchThemeManager.java:172)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.getCurrentTheme(WorkbenchThemeManager.java:256)
+	at org.eclipse.ui.internal.Workbench$23.runWithException(Workbench.java:1864)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4855)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeFonts(Workbench.java:1858)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1715)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2825)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:632)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-16 20:29:22.733
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/josez/Documents/eclipse/ClassCodeDOO/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1729128562732
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\josez\Documents\eclipse\eclipse\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:29:22.734
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-16 20:29:22.742
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9496
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:29:25.962
+!MESSAGE Boot project ADDED: ucobet
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:29:25.962
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:29:25.966
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-16 20:29:26.063
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\josez'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:29:26.206
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.api.workbenchpart.ViewWithMissingClass" id and the "ERROR: View pointing to invalid class" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:29:26.207
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.concurrentTableTest" id and the "Concurrent Table Test View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:29:26.209
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.decorator.TableTreeTest" id and the "Table Tree Test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:29:26.210
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.view1" id and the "Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:29:26.211
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyView" id and the "Lazy Virtual Table View test" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-10-16 20:29:26.213
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.tests.lazyViewDeferred" id and the "Lazy Virtual Table with Deferred Updates and Ranges" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-16 20:34:40.178
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-16 20:34:40.179
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-16 20:34:40.181
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-16 20:34:40.182
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-16 20:34:40.190
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-10-16 20:34:40.194
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-16 20:34:44.164
+!MESSAGE Classpath changed for project: ucobet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-16 21:04:35.316
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-16 21:04:35.323
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

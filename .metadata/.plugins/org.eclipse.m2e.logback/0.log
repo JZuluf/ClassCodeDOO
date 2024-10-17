@@ -1385,3 +1385,70 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact co.edu.uco.cr
 2024-10-15 21:10:23,524 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
 2024-10-15 21:19:41,332 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-10-15 21:19:48,050 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-15 21:50:28,340 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-15 21:51:08,875 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-15 21:51:10,712 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.ucobet:ucobet-api:0.0.1-SNAPSHOT @ C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\pom.xml.
+2024-10-15 21:51:11,036 [Worker-18: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for co.edu.uco.crosscutting:CrossCutting:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2024-10-15 21:51:12,154 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ucobet/src/main/java
+2024-10-15 21:51:12,158 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ucobet/src/main/resources
+2024-10-15 21:51:12,587 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ucobet/src/main/resources
+2024-10-15 21:51:12,598 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ucobet/src/test/java
+2024-10-15 21:51:12,600 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ucobet/src/test/resources
+2024-10-15 21:51:13,198 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT @ C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\pom.xml.
+2024-10-15 21:51:13,198 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT @ C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\pom.xml.
+2024-10-15 21:51:13,693 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.ucobet:ucobet-api:0.0.1-SNAPSHOT @ C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\pom.xml.
+2024-10-15 21:51:14,035 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-15 21:51:14,795 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-15 21:51:14,797 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\src\main\resources
+2024-10-15 21:51:14,802 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-15 21:51:14,803 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\src\test\resources
+2024-10-15 21:51:14,987 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 3,00 sec 
+2024-10-15 21:51:15,573 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-15 21:51:15,613 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-15 21:51:15,622 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-15 21:51:15,799 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT @ C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\pom.xml.
+2024-10-16 19:47:52,500 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-16 19:47:54,935 [Worker-3: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-16 20:17:44,019 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-16 20:17:49,138 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-16 20:29:25,773 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-16 20:29:34,703 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-16 20:34:42,706 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.ucobet:ucobet-api:0.0.1-SNAPSHOT @ C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\pom.xml.
+2024-10-16 20:34:42,985 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.uco.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-16 20:34:43,529 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:34:43,545 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 20:34:43,551 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 20:34:45,546 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:34:45,559 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 20:34:45,564 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 20:44:08,154 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:44:08,162 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 20:44:08,166 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 20:44:14,584 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:44:14,593 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 20:44:14,598 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 20:44:51,181 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:44:51,200 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 20:44:51,207 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 20:47:05,991 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:47:06,003 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 20:47:06,008 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 20:52:17,928 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:52:17,981 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 20:52:17,990 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 21:04:35,315 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-16 21:04:35,317 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\src\main\resources
+2024-10-16 21:04:35,323 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-16 21:04:35,325 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\CrossCutting\src\test\resources
+2024-10-16 21:13:46,061 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:13:46,091 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 21:13:46,093 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 21:38:51,163 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:38:51,201 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 21:38:51,213 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 21:59:18,020 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:59:18,044 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 21:59:18,050 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
+2024-10-16 22:06:48,770 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 22:06:48,796 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 22:06:48,812 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\josez\Documents\eclipse\ClassCodeDOO\ucobet\src\test\resources
