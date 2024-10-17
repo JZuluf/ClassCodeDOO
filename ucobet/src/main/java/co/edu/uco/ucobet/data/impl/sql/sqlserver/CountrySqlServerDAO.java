@@ -24,14 +24,17 @@ public final class CountrySqlServerDAO extends SqlDAO implements CountryDAO {
 
 	@Override
 	public CountryEntity findByID(final UUID id) {
-		// TODO Auto-generated method stub
-		return null;
+		var countryEntityFilter = new CountryEntity();
+		countryEntityFilter.setId(id);
+		
+		var result = findByFilter(countryEntityFilter);
+		
+		return (result.isEmpty()) ? new CountryEntity() : result.get(0);
 	}
 
 	@Override
 	public List<CountryEntity> findAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return findByFilter(new CountryEntity());
 	}
 
 	@Override
@@ -40,46 +43,45 @@ public final class CountrySqlServerDAO extends SqlDAO implements CountryDAO {
 		final var statement = new StringBuilder();
 		final var parameters = new ArrayList<>();
 		final var resultSelect = new ArrayList<CountryEntity>();
+		var statementWasPrepared = false;
 		
 		createSelect(statement);
 		createFrom(statement);
 		createWhere(statement, filter, parameters);
 		createOrderBy(statement);
 		
-		try (final var preparedStatement 
-				= getConnection().prepareStatement(statement.toString())) {
+		try (final var preparedStatement = getConnection().prepareStatement(statement.toString())) {
 			
 			for (var arrayIndex = 0; arrayIndex < parameters.size(); arrayIndex++) {
 				var statementIndex = arrayIndex + 1;
 				preparedStatement.setObject(statementIndex, parameters.get(arrayIndex));		
 			} 
 			
-			try (final var result = preparedStatement.executeQuery()){
-				
-				while(result.next()) {
-					var countryEntityTmp = new CountryEntity();
-					countryEntityTmp.setId(UUIDHelper.convertToUUID(result.getString("id")));
-					countryEntityTmp.setName(result.getString("name"));
-					
-					resultSelect.add(countryEntityTmp);
-				}
-				
-			}catch (final SQLException exception) {
-					var userMessage = "Se ha presenntado un problema tratando de llevar a cabo la consulta de los paises por el filtro deseado. Por favor intente de nuevo y si el problema persiste reporte el problema...";
-					var technicalMessage = "Se ha presentado un problema al tratar de consultar la información de los países por el filtrado deseado en la base de datos sql server tratando de ejecutar la sentecia SQL definida.Por favor valide el log de errores para encontrar mayores detalles del problema presentado...";
-					
-					throw DataUcoBetException.crear(userMessage, technicalMessage, exception);
-				}
+			statementWasPrepared = true;
 			
+			final var result = preparedStatement.executeQuery();
+				
+			while(result.next()) {
+				var countryEntityTmp = new CountryEntity();
+				countryEntityTmp.setId(UUIDHelper.convertToUUID(result.getString("id")));
+				countryEntityTmp.setName(result.getString("name"));
+					
+				resultSelect.add(countryEntityTmp);
+			}
 			
 		} catch (final SQLException exception) {
-			var userMessage = "Se ha presenntado un problema tratando de llevar a cabo la consulta de los paises por el filtro deseado. Por favor intente de nuevo y si el problema persiste reporte el problema...";
-			var technicalMessage = "Se ha presentado un problema al tratar de consultar la información de los países por el filtrado deseado en la base de datos sql server tratando de preparar la sentecia SQL que se iba a ejecutar.Por favor valide el log de errores para encontrar mayores detalles del problema presentado...";
+		var userMessage = "Se ha presenntado un problema tratando de llevar a cabo la consulta de los paises por el filtro deseado. Por favor intente de nuevo y si el problema persiste reporte el problema...";
+		var technicalMessage = "Se ha presentado un problema al tratar de consultar la información de los países por el filtrado deseado en la base de datos sql server tratando de preparar la sentecia SQL que se iba a ejecutar.Por favor valide el log de errores para encontrar mayores detalles del problema presentado...";	
+
+			if (statementWasPrepared) {
+			 	technicalMessage = "Se ha presentado un problema al tratar de consultar la información de los países por el filtrado deseado en la base de datos sql server tratando de ejecutar la sentecia SQL definida.Por favor valide el log de errores para encontrar mayores detalles del problema presentado...";
+				
+			}
 			
-			throw DataUcoBetException.crear(userMessage, technicalMessage, exception);
-		}
+		throw DataUcoBetException.crear(userMessage, technicalMessage, exception);
+	}
 		
-		return resultSelect;
+	return resultSelect;
 	}
 	
 	private void createSelect(final StringBuilder statement) {
