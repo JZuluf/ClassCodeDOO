@@ -15,7 +15,6 @@ public class CityDomain extends Domain {
 		super(id);
 		setName(name);
 		setState(state);
-
 	}
 
 	public static final CityDomain create(final UUID id, final String name, final StateDomain state) {
@@ -34,16 +33,16 @@ public class CityDomain extends Domain {
 		this.name = TextHelper.applyTrim(name);
 	}
 
+	@Override
 	public UUID getId() {
 		return super.getId();
 	}
 
-	public StateDomain getCountry() {
+	public StateDomain getState() {
 		return state;
 	}
 
-	private void setState(final StateDomain state) {
+	private void setState(final StateDomain country) {
 		this.state = ObjectHelper.getDefault(state, StateDomain.create());
 	}
-   
 }

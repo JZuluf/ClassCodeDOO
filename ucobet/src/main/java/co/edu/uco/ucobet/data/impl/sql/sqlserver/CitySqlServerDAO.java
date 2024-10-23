@@ -14,7 +14,7 @@ import co.edu.uco.ucobet.entity.StateEntity;
 
 public final class CitySqlServerDAO extends SqlDAO implements CityDAO{
 
-	protected CitySqlServerDAO(final Connection connection) {
+	public CitySqlServerDAO(final Connection connection) {
 		super(connection);
 	}
 

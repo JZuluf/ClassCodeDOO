@@ -22,4 +22,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CountryEntity"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.Daofactory"/>
 </qualifiedTypeNameHistroy>
