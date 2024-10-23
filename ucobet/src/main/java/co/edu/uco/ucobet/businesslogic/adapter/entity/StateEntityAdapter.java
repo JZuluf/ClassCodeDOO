@@ -18,16 +18,16 @@ public class StateEntityAdapter implements Adapter<StateDomain, StateEntity>{
 	}
 
 	@Override
-	public CountryDomain adaptSource(StateEntity data) {
-		var entityToAdapt = ObjectHelper.getDefault(data, new CountryEntity());
-		return CountryDomain.create(entityToAdapt.getId(), entityToAdapt.getName());
+	public StateDomain adaptSource(StateEntity data) {
+		var entityToAdapt = ObjectHelper.getDefault(data, new StateEntity());
+		return StateDomain.create(entityToAdapt.getId(), entityToAdapt.getName(), null);
 	}
 
 	@Override
-	public CountryEntity adaptTarget(StateDomain data) {
-		var domainToAdapt = ObjectHelper.getDefault(data, CountryDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY));
+	public StateEntity adaptTarget(StateDomain data) {
+		var domainToAdapt = ObjectHelper.getDefault(data, StateDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY, null));
 		
-		var entityToAdapt = new CountryEntity();
+		var entityToAdapt = new StateEntity();
 		entityToAdapt.setId(domainToAdapt.getId());
 		entityToAdapt.setName(domainToAdapt.getName());
 		
