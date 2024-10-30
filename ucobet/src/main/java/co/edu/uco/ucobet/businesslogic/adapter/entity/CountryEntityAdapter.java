@@ -1,14 +1,14 @@
 package co.edu.uco.ucobet.businesslogic.adapter.entity;
 
+import java.util.List;
+
 import co.edu.uco.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
 import co.edu.uco.ucobet.domain.CountryDomain;
-import co.edu.uco.ucobet.domain.StateDomain;
-import co.edu.uco.ucobet.dto.CountryDTO;
 import co.edu.uco.ucobet.entity.CountryEntity;
-import co.edu.uco.ucobet.entity.StateEntity;
+
 
 public class CountryEntityAdapter implements Adapter<CountryDomain, CountryEntity>{
 	
@@ -16,6 +16,10 @@ public class CountryEntityAdapter implements Adapter<CountryDomain, CountryEntit
 	
 	private CountryEntityAdapter() {
 		
+	}
+	
+	public static Adapter<CountryDomain, CountryEntity> getCountryEntityAdapter(){
+		return instance;
 	}
 
 	@Override
@@ -33,6 +37,12 @@ public class CountryEntityAdapter implements Adapter<CountryDomain, CountryEntit
 		entityToAdapt.setName(domainToAdapt.getName());
 		
 		return entityToAdapt;
+	}
+
+	@Override
+	public List<CountryEntity> adaptTarget(List<CountryDomain> data) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 

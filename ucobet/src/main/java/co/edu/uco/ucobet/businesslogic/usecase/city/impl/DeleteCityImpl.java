@@ -4,7 +4,7 @@ import java.util.UUID;
 
 import co.edu.uco.ucobet.businesslogic.usecase.city.DeleteCity;
 
-public class DeleteCityImpl implements DeleteCity{
+public final class DeleteCityImpl implements DeleteCity{
 
 	@Override
 	public void execute(final UUID data) {

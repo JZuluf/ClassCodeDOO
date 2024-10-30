@@ -6,6 +6,7 @@ UIActivities.org.eclipse.activity5=true
 UIActivities.org.eclipse.activity6=true
 UIActivities.org.eclipse.activity7=true
 eclipse.preferences.version=1
+org.eclipse.jdt.ui.ColoredLabels.match_highlight=206,92,0
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
 org.eclipse.ui.r30.ACTIVE_HYPERLINK_COLOR=138,201,242
 org.eclipse.ui.r30.CONFLICTING_COLOR=240,15,66

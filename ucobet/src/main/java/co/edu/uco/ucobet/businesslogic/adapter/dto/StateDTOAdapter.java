@@ -1,25 +1,41 @@
 package co.edu.uco.ucobet.businesslogic.adapter.dto;
 
+import java.util.List;
+
 import co.edu.uco.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
-import co.edu.uco.ucobet.domain.CountryDomain;
-import co.edu.uco.ucobet.dto.CountryDTO;
+import co.edu.uco.ucobet.domain.StateDomain;
+import co.edu.uco.ucobet.dto.StateDTO;
 
-public class StateDTOAdapter implements Adapter<CountryDomain, CountryDTO> {
-
-	@Override
-	public CountryDomain adaptSource(final CountryDTO data) {
-		var dtoToAdapt = ObjectHelper.getDefault(data, CountryDTO.create());
-		return CountryDomain.create(UUIDHelper.convertToUUID(dtoToAdapt.getId()), data.getName());
+public class StateDTOAdapter implements Adapter<StateDomain, StateDTO> {
+	
+	private static final Adapter<StateDomain, StateDTO> instance = new StateDTOAdapter();
+	
+	private StateDTOAdapter() {
+		
+	}
+	
+	public static Adapter<StateDomain, StateDTO> getStateDTOAdapter(){
+		return instance;
 	}
 
 	@Override
-	public CountryDTO adaptTarget(final CountryDomain data) {
-	    var domainToAdapt = ObjectHelper.getDefault(data, CountryDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY));
-		return CountryDTO.create().setId("").setName(domainToAdapt.getName());
+	public StateDomain adaptSource(final StateDTO data) {
+		var dtoToAdapt = ObjectHelper.getDefault(data, StateDTO.create());
+		return StateDomain.create(UUIDHelper.convertToUUID(dtoToAdapt.getId()), data.getName(), null);
 	}
 
+	@Override
+	public StateDTO adaptTarget(final StateDomain data) {
+	    var domainToAdapt = ObjectHelper.getDefault(data, StateDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY, null));
+		return StateDTO.create().setId("").setName(domainToAdapt.getName());
+	}
 
+	@Override
+	public List<StateDTO> adaptTarget(List<StateDomain> data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

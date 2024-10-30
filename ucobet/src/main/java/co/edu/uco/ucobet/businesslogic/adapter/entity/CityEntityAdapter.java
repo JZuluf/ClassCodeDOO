@@ -1,39 +1,41 @@
 package co.edu.uco.ucobet.businesslogic.adapter.entity;
 
-import co.edu.uco.crosscutting.helpers.ObjectHelper;
-import co.edu.uco.crosscutting.helpers.TextHelper;
-import co.edu.uco.crosscutting.helpers.UUIDHelper;
-import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
-import co.edu.uco.ucobet.domain.CountryDomain;
-import co.edu.uco.ucobet.domain.StateDomain;
-import co.edu.uco.ucobet.dto.CountryDTO;
-import co.edu.uco.ucobet.entity.CountryEntity;
-import co.edu.uco.ucobet.entity.StateEntity;
+import java.util.List;
 
-public class CityEntityAdapter implements Adapter<CountryDomain, CountryEntity>{
+import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
+import co.edu.uco.ucobet.domain.CityDomain;
+import co.edu.uco.ucobet.entity.CityEntity;
+
+public final class CityEntityAdapter implements Adapter<CityEntity, CityDomain>{
 	
-	private static final Adapter<CountryDomain, CountryEntity> instance = new CityEntityAdapter();
+	private static final Adapter<CityEntity, CityDomain> instance = new CityEntityAdapter();
 	
 	private CityEntityAdapter() {
 		
 	}
-
-	@Override
-	public CountryDomain adaptSource(CountryEntity data) {
-		var entityToAdapt = ObjectHelper.getDefault(data, new CountryEntity());
-		return CountryDomain.create(entityToAdapt.getId(), entityToAdapt.getName());
-	}
-
-	@Override
-	public CountryEntity adaptTarget(CountryDomain data) {
-		var domainToAdapt = ObjectHelper.getDefault(data, CountryDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY));
-		
-		var entityToAdapt = new CountryEntity();
-		entityToAdapt.setId(domainToAdapt.getId());
-		entityToAdapt.setName(domainToAdapt.getName());
-		
-		return entityToAdapt;
-	}
 	
+	public static Adapter<CityEntity, CityDomain> getCityEntityAdapter(){
+		return instance;
+	}
+
+	@Override
+	public CityEntity adaptSource(CityDomain data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CityDomain adaptTarget(CityEntity data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<CityDomain> adaptTarget(List<CityEntity> data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
 
 }

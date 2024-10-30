@@ -51,7 +51,12 @@
   			<artifactId>CrossCutting</artifactId>
   			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>co.edu.uco.victusresidencias</groupId>
+			<artifactId>victusresidencias-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>

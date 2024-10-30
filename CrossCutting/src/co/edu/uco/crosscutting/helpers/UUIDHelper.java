@@ -30,10 +30,14 @@ public final class UUIDHelper {
 	}
 
 	public static final boolean isDefault(final UUID value) {
-		return getDefault(value, getDefault()).equals(getDefault());
+		return isEqual(value, getDefault());
 	}
 
 	public static final boolean isDefault(final String uuidAsString) {
-		return getDefault(convertToUUID(uuidAsString), getDefault()).equals(getDefault());
+		return isDefault(convertToUUID(uuidAsString));
+	}
+	
+	public static final boolean isEqual(final UUID valueOne, final UUID valueTwo) {
+		return getDefault(valueOne,getDefault()).compareTo(getDefault(valueTwo,getDefault())) == 0;
 	}
 }
